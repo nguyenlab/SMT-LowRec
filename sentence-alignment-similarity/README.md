@@ -24,15 +24,19 @@ Extending word alignment for sentence alignment using word similarity
 4. Train word2vec models
 
     ./w2v-train.sh
+    
+5. Extract word similarity in monolingual contexts (from word2vec)
 
-5. Extract word similarity in bilingual contexts
+    ./w2v-most-similar.sh
+
+6. Extract word similarity in bilingual contexts
 
     ./paraphrase-train.sh
 
-6. Extending the word alignment by word similarity in word2vec models and bilingual contexts
+7. Extending the word alignment by word similarity in word2vec models and bilingual contexts
 
     ./ibm1-w2v.sh
 
-7. Produce final alignment
+8. Produce final alignment
 
     ./alignment.sh
