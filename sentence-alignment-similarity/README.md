@@ -1,11 +1,10 @@
 # Extending word alignment for sentence alignment using word similarity
 
 data
-    a. input: input file pairs for alignment (format: filename_lang.snt)
-    
-    b. mono: monolingual data sets to train word2vec
-    
-    c. bilingual: ja-en, en-vi (to train word similarity in bilingual contexts); ja-vi (to enlarge the training data of word alignment)
+
+    1. input: input file pairs for alignment (format: filename_lang.snt)
+    2. mono: monolingual data sets to train word2vec
+    3. bilingual: ja-en, en-vi (to train word similarity in bilingual contexts); ja-vi (to enlarge the training data of word alignment)
 
 1. Sentence alignment by length-based phase
 
