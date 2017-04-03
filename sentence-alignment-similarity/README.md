@@ -1,7 +1,8 @@
 Extending word alignment for sentence alignment using word similarity
 
 # data
-    Sample data sets
+    Sample data sets for Japanese-Vietnamse sentence alignment
+    (ja: Japanese, en: English, vi: Vietnamese)
     
     1. input: input file pairs for alignment (format: filename_lang.snt)
     2. mono: monolingual data sets to train word2vec
