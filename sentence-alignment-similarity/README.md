@@ -42,3 +42,9 @@ Extending word alignment for sentence alignment using word similarity
 8. Produce final alignment
 
     ./alignment.sh
+
+# References
+
+[1] Moore, Robert C. "Fast and accurate sentence alignment of bilingual corpora." Conference of the Association for Machine Translation in the Americas. Springer Berlin Heidelberg, 2002.
+
+[2] Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." Advances in neural information processing systems. 2013.
