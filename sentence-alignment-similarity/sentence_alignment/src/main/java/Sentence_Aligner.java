@@ -6,7 +6,7 @@
 
 /**
  *
- * @author s1420211
+ * @author Long
  */
 public class Sentence_Aligner {
 
