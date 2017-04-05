@@ -15,7 +15,7 @@ import java.util.zip.GZIPOutputStream;
 
 /**
  *
- * @author s1420211
+ * @author Long
  */
 public class Gzip {
 

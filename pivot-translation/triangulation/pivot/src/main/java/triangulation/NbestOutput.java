@@ -32,7 +32,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author s1420211
+ * @author Long
  */
 public class NbestOutput {
     

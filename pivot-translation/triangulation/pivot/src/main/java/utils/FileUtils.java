@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author s1420211
+ * @author Long
  */
 public class FileUtils {
 
