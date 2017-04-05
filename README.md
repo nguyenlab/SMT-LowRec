@@ -4,6 +4,20 @@ This repository is for the following paper:
 
 Enhancing Statistical Machine Translation For Low-ResourceLanguages Using Semantic Similarity
 
+The repository includes:
+
+1. Corpora
+
+- Bilingual corpora to train statistical machine translation (SMT) models in language pairs: Japanese-Vietnamese, Indonesian-Vietnamese, Malay-Vietnamese, Filipino-Vietnamese.
+
+2. Sentence alignment
+
+- The implementation of [Moore, 2002] for sentence alignment.
+- Extending word alignment by word similarity using word2vec
+
+3. Pivot translation
+- The implementation of [Wu and Wang, 2007].
+
 
 
 # References
