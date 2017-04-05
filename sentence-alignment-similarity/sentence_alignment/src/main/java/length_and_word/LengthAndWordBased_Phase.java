@@ -21,7 +21,7 @@ import length_based.SentLengthRatio;
 
 /**
  *
- * @author s1420211
+ * @author Long
  */
 public class LengthAndWordBased_Phase {
 
