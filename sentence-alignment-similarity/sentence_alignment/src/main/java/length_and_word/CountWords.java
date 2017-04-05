@@ -6,8 +6,7 @@ import java.io.*;
 import length_based.IOData;
 
 /*
- author Trieu Hai Long
- *K17CS - UET
+ author Long
  */
 public class CountWords extends ReadIBM {
     //----------------------------------
