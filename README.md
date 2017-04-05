@@ -9,7 +9,6 @@ The repository includes:
 1. Corpora
 
 - Bilingual corpora: training, tuning, and test sets for language pairs: Japanese-Vietnamese, Indonesian-Vietnamese, Malay-Vietnamese, Filipino-Vietnamese.
-- 
 
 2. Sentence alignment
 
