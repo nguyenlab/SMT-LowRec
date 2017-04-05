@@ -1,17 +1,18 @@
 The scripts are to train pivot translation, which induces a source-target phrase table given a source-pivot phrase table and a pivot-target phrase tables.
 
-1. data:
+# data:
 - phrase-table.src-pvt, phrase-table.pvt-trg: input phrase tables
 - test.src, test.trg: the test set to filter input phrase tables
 
-2. Training: triangulation
+# Training
+The script to train a triangulation model
 
-    ./triangulation.sh
-3. Filtering: input phrase tables by a test set
+        ./triangulation.sh
+    
+# Training with filtered phrase tables by a test set 
+This script filters input phrase tables before training. The input phrase tables are filtered that contain only phrases included in a given test set to speed up the training time.
 
-This script filters input phrase tables that contain only phrases included in a given test set to speed up the training time.
-
-    ./triangulation-filter.sh
+        ./triangulation-filter.sh
 
 
 # References
