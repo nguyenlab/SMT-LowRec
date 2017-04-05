@@ -10,7 +10,7 @@ The script to train a triangulation model
         ./triangulation.sh
     
 # Training with filtered phrase tables by a test set 
-This script filters input phrase tables before training. The input phrase tables are filtered that contain only phrases included in a given test set to speed up the training time.
+Input phrase tables are filtered by a test set, in which the filtered phrase tables contain only phrases included in the test set to speed up the training time.
 
         ./triangulation-filter.sh
 
