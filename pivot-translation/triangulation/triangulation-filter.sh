@@ -2,7 +2,7 @@
 #scripts for training triangulation with input phrase tables filtered by a test set
 
 JAVA_DIR=pivot
-MOSES_DIR=/path-to-moses/mosesdecoder
+MOSES_DIR=/path-to-moses/mosesdecoder # edit me
 
 #source and target languages
 SRCLANG=ja
@@ -21,7 +21,7 @@ WORKERS=20 # multithreading in computing scores of triangulation
 NBEST=10 # nbest: number of candidates output (target phrases) for each source phrase in the phrase-table output
 
 #language-model
-LANGUAGE_MODEL_PATH=/path-to-language-model/language-model.5gram.bin
+LANGUAGE_MODEL_PATH=/path-to-language-model/language-model.5gram.bin # edit me
 
 #triangulation
 java -cp $JAVA_DIR/target/classes:$JAVA_DIR/target/lib/* Pivot triangulation-filter \
