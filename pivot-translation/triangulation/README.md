@@ -14,7 +14,7 @@ Input phrase tables are filtered by a test set, in which the filtered phrase tab
 
         ./triangulation-filter.sh
 
-# Edit the paths to your systems:
+Edit files .sh: to set paths in your systems:
 1. mosesdecoder
 2. language-model file
 
