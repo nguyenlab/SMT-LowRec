@@ -2,8 +2,7 @@
 #scripts for training triangulation
 
 JAVA_DIR=pivot
-MOSES_DIR=/work/$USER/moses/mosesdecoder
-#MOSES_DIR=/path-to-moses/mosesdecoder
+MOSES_DIR=/path-to-moses/mosesdecoder
 
 #source and target languages
 SRCLANG=ja
@@ -18,8 +17,7 @@ WORKERS=20 # multithreading in computing scores of triangulation
 NBEST=10 # nbest: number of candidates output (target phrases) for each source phrase in the phrase-table output
 
 #language-model
-LANGUAGE_MODEL_PATH=/home/projects/smt-baseline/language-models/vi/lm.5gr.vi.bin
-#LANGUAGE_MODEL_PATH=/path-to-language-model/language-model.5gram.bin
+LANGUAGE_MODEL_PATH=/path-to-language-model/language-model.5gram.bin
 
 #triangulation
 java -cp $JAVA_DIR/target/classes:$JAVA_DIR/target/lib/* Pivot triangulation \
