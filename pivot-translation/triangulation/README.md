@@ -1,3 +1,5 @@
+The scripts are to train pivot translation, which induces a source-target phrase table given a source-pivot phrase table and a pivot-target phrase tables.
+
 data: input phrase tables: source-pivot and pivot-target
 
 # Training: triangulation
