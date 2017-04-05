@@ -1,5 +1,5 @@
 #!/bin/sh
-#scripts for training triangulation
+#scripts for training triangulation with input phrase tables filtered by a test set
 
 JAVA_DIR=pivot
 MOSES_DIR=/path-to-moses/mosesdecoder
